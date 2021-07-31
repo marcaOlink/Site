@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hello</title>
+<meta charset="utf-8">
+<script>
+document.write(nome+"<br\>"+"<p>Leia os livros de Mateus, marcos, Lucas e João</p>");
+
+</script>
+</head>
+<body style=background-color:#00f;>
+<h1>PALAVRA DE DEUS</h1>
+<h2>Que o Senho ilumina a sua vida com paz, amor e justiça</h2>
+<p></p>
+</body>
+</html>
