@@ -1,0 +1,14 @@
+São quarto jogo
+ por edição
+saia o prêmio 
+soteado
+Caso o jogo da lotofacíl que foi feito apois a seleção dos cem nomes
+			estiver prêmiado
+Também participa do Fundo FB as 40 edição.participando de 40 edição, e caso 
+			    você não ganhau, em nem uma das 40 edição o prêmio camisa passo a 
+			    passo nós devolveremos 80% do seu dinheiro
+
+display:flex;
+flex-direction:center;
+jjustify-content:center;
+aling-items:center;
