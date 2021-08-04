@@ -1,0 +1,6 @@
+cor de fundo img.
+projeto sitejogo
+a7a7a7
+
+dimenção 171 peso opacity 10%
+dimenção 171 peso opacity 42%
