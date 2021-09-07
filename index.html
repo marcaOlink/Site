@@ -20,23 +20,27 @@ width:100%;
 #sysImg{
 width:100%;
 position:absolute;
+margin:0% 1%;
 }
 #cmdImg{
 margin:-0% 1%;
 position:relative;
 }
+#h{
+height:100%;
+}
 #dimensao{
-widht:50%;
 position:relative;
 }
 p{
 color:#0f0;
-margin:0% 5%;
+margin:1%;
 font-size:220%;
 }
 #cmd1{
 width:100%;
 position:absolute;
+margin:1% 0%;
 }
 #cmd2{
 margin:-0% 1%;
@@ -56,10 +60,12 @@ position:relative;
 <body>
 <script type="text/javascript" src="materialize/js/materialize.min.js">
 </script>
-<div class="col m12 m12 push-m12">
+<div id="h">
+<div>
 <img id="sysImg" src="sys.gif">
 <img id="cmdImg" src="cmd.gif">
-<div id="dimensao">
+</div>
+<div id="dimensao" class="col m12 m12 push-m12">
 <h1 style="color:#fff; font-size:250%; margin:0% 10%;" >COMEÇANDO DO BASICO DO HTML</h1>
 <h2 style="color:#00f; font-size:250%; margin:0% 10%;" >LOGICA DO SISTEMA LINGUAGUEM DE MARCAÇÂO DE HIPERTEXTO</h2>
 <p>Pense em uma lógica: Um pedaço de papel com texto e uma img dezenhada. Isso é a téoria HTML!
@@ -78,7 +84,8 @@ Todos os tipos de sistemas de linguagens programada na web ultiliza essa
 <div class="col m12 m12 push-m12">
 <img id="cmd3" src="sys5.gif">
 <img id="cmd4" src="sys3.gif">
-
+</div>
+<img id="cmd1" src="sys16.gif">
 </div> 
 </body>
 </html>
