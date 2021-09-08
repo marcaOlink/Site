@@ -17,19 +17,26 @@ padding:0;
 body{
 width:100%;
 }
+#h{
+width:100%;
+padding:5px;
+position:relative;
+}
+#umG{
+width:100%;
+position:relative;
+}
 #sysImg{
 width:100%;
 position:absolute;
-margin:0% 1%;
-}
-#cmdImg{
-margin:-0% 1%;
-position:relative;
-}
-#h{
 height:100%;
 }
-#dimensao{
+#cmdImg{
+margin: 5px;
+position:relative;
+}
+
+#doisG{
 position:relative;
 }
 p{
@@ -37,35 +44,51 @@ color:#0f0;
 margin:1%;
 font-size:220%;
 }
+#tresG{
+position:relative;
+}
 #cmd1{
 width:100%;
 position:absolute;
-margin:1% 0%;
+height:100%:
 }
 #cmd2{
-margin:-0% 1%;
+margin:5px;
 position:relative;
 }
-#cmd3{
-width:100%;
-position:absolute;
-margin:;
+#quatroG{
+position:relative;
+margin-top:120px;
 }
 #cmd4{
-margin:-0% 1%;
+width:100%;
+position:absolute;
+height:100%;
+
+}
+#cmd3{
+margin: 5px;
 position:relative;
+}
+#cincoG{
+position:relative;
+margin-top:5px;
+}
+
+#quatroG{
+position:relative;
+margin-top:120px;
 }
 </style>
 </head>
 <body>
 <script type="text/javascript" src="materialize/js/materialize.min.js">
 </script>
-<div id="h">
-<div>
-<img id="sysImg" src="sys.gif">
-<img id="cmdImg" src="cmd.gif">
-</div>
-<div id="dimensao" class="col m12 m12 push-m12">
+<div id="h" class="col l12 l12 push-l12 red">
+<div id="umG" class="col l12 l12 push-l12 blue">
+<img id="sysImg" src="gif/sys.gif">
+<img id="cmdImg" src="gif/cmd.gif">
+<div id="doisG" class="col m12 m12 push-m12">
 <h1 style="color:#fff; font-size:250%; margin:0% 10%;" >COMEÇANDO DO BASICO DO HTML</h1>
 <h2 style="color:#00f; font-size:250%; margin:0% 10%;" >LOGICA DO SISTEMA LINGUAGUEM DE MARCAÇÂO DE HIPERTEXTO</h2>
 <p>Pense em uma lógica: Um pedaço de papel com texto e uma img dezenhada. Isso é a téoria HTML!
@@ -77,18 +100,23 @@ Todos os tipos de sistemas de linguagens programada na web ultiliza essa
  tipos de codigos são sistemas de comando que são marcado por protocolo de arquivos executavés  </p>
  </div>
  </div>
- <div class="col m12 m12 push-m12">
-<img id="cmd1" src="sys4.gif">
-<img id="cmd2" src="sys2.gif">
+<div id="tresG" class="col m12 m12 push-m12">
+<img id="cmd1" src="gif/sys4.gif">
+<img id="cmd2" src="gif/sys2.gif">
 </div>
-<div class="col m12 m12 push-m12">
-<img id="cmd3" src="sys5.gif">
-<img id="cmd4" src="sys3.gif">
+ 
+<div id="quatroG" class="col m12 m12 push-m12">
+<img id="cmd4" src="gif/sys5.gif">
+<img id="cmd3" src="gif/sys3.gif">
 </div>
-<img id="cmd6" src="sys16.gif">
+
+<div id="cincoG" class="col m12 m12 push-m12">
+<img style="width:100%;" src="gif/sys16.gif">
 </div> 
+
+<div id="seisG" class="col m12 m12 push-m12">
+<img style="width:100%;" src="gif/video.gif">
 </div>
-<img id="cmd7" src="video.gif">
-</div> 
+</div>
 </body>
 </html>
